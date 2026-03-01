@@ -1,1 +1,28 @@
-# Addition of two numbers
+# Addition of two numbers.
+a=int(input("enter the first number"))
+b=int(input("enter the second number"))
+print("sum=",a+b)
+
+# area of square.
+a=int(input("enter the first number"))
+print("area=",a*a)
+
+# area of circle.
+r=float(input("enter a number"))
+print("area=",3.14*r*r)
+
+# area of rectangle.
+l=int(input("enter the value"))
+b=int(input("enter the value"))
+print("area=",l*b)
+
+# square and cube of a number.
+a=int(input("enter a number"))
+print("square=",a**2)
+print("cube=",a**3)
+
+# kg to tons and pound.
+num=float(input("enter the number in kilogram"))
+print("tons=",0.001*num)
+print("pound=",2.2*num)
+
