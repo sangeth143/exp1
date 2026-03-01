@@ -51,9 +51,18 @@ print("sum of digits:",c)
 p=int(input("enter the principle amount"))
 r=int(input("enter rate of intrest")
 t=int(input("enter the time"))
-print("CI=",((p*r*t)/100))
+print("SI=",((p*r*t)/100))
+print("CI=",((p*(1+(r/100))**t)-p))
 
+# find total marks and percentage 
+a=int(input("enter the mark1:"))
+b=int(input("enter the mark2:"))
+c=int(input("enter the mark3:"))
+d=int(input("enter the mark4:"))
+print("total sum=",(a+b+c+d))
+print("percentage=",((a+b+c+d)/4))
 
+#
 
 
 
