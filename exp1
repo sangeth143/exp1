@@ -26,3 +26,26 @@ num=float(input("enter the number in kilogram"))
 print("tons=",0.001*num)
 print("pound=",2.2*num)
 
+# km to miles
+num=int(input("enter number in kilometer"))
+print("miles=",0.621*num)
+
+# sum of 4 digit number
+num=int(input("enter a 4 digit number")
+c=0
+n=num%10
+c=c+n
+num=num//10
+n=num%10
+c=c+n
+num=num//10
+n=num%10
+c=c+n
+num=num//10
+n=num%10
+c=c+n
+num=num//10
+print("sum of digits:",c)
+
+
+
