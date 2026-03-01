@@ -48,6 +48,11 @@ num=num//10
 print("sum of digits:",c)
 
 # Simple intrest and compound intrest
+p=int(input("enter the principle amount"))
+r=int(input("enter rate of intrest")
+t=int(input("enter the time"))
+print("CI=",((p*r*t)/100))
+
 
 
 
